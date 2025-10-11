@@ -1,0 +1,7 @@
+[Added Associations]
+application/x-7z-compressed=7z.desktop;
+text/plain=code-3.desktop;code-2.desktop;
+
+[Default Applications]
+application/x-7z-compressed=7z.desktop;
+text/plain=code-3.desktop;
