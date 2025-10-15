@@ -6,5 +6,5 @@ end
 
 # Start SSH agent if not running
 if not set -q SSH_AGENT_PID
-    eval (ssh-agent -c)
+    eval (ssh-agent -c 2>/dev/null)
 end
