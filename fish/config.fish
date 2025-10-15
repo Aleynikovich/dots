@@ -3,3 +3,8 @@ if status is-interactive
 end
 
 # Yazi Shell Wrapper for directory persistence
+
+# Start SSH agent if not running
+if not set -q SSH_AGENT_PID
+    eval (ssh-agent -c)
+end

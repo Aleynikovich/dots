@@ -14,9 +14,7 @@
 !electron-flags.conf
 !.gitignore
 
-# VS Code config (contains caches and user data) - keep ignored
-Code/
-
+# Additional ignores for files that might appear in tracked directories
 # Cache directories
 .cache/
 */cache/
@@ -44,6 +42,3 @@ Thumbs.db
 .fuse_hidden*
 .nfs*
 nohup.out
-
-# Application specific
-# Add more as needed
