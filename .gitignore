@@ -1,6 +1,20 @@
 # Gitignore for dotfiles
 
-# VS Code config (contains caches and user data)
+# Ignore everything by default
+*
+
+# But allow tracking of specific configs
+!fish/
+!hypr/
+!kitty/
+!RoboDK/
+!uwsm/
+!yay/
+!code-flags.conf
+!electron-flags.conf
+!.gitignore
+
+# VS Code config (contains caches and user data) - keep ignored
 Code/
 
 # Cache directories
