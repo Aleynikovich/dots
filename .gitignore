@@ -1,2 +1,35 @@
-#Gitignore
+# Gitignore for dotfiles
+
+# VS Code config (contains caches and user data)
 Code/
+
+# Cache directories
+.cache/
+*/cache/
+*/Cache/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Sensitive files
+*password*
+*secret*
+*key*
+*cookie*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.Trash-*
+.fuse_hidden*
+.nfs*
+nohup.out
+
+# Application specific
+# Add more as needed
