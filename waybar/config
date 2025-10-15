@@ -20,14 +20,12 @@
             "8": "8",
             "9": "9",
             "10": "10",
-            "class<kitty>": "",
-            "class<firefox>": "",
-            "class<code>": "",
-            "class<discord>": "",
-            "class<Discord>": "",
-            "class<vesktop>": "",
-            "class<steam>": "",
-            "class<spotify>": ""
+            "class<kitty>": "🐱",
+            "class<firefox>": "🌐",
+            "class<code>": "💻",
+            "class<discord>": "🟣",
+            "class<steam>": "🎮",
+            "class<spotify>": "🎵"
         }
     },
     "hyprland/window": {
@@ -45,8 +43,8 @@
         "format-muted": "",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "",
+            "headset": "",
             "phone": "",
             "portable": "",
             "car": "",
@@ -56,7 +54,7 @@
     },
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-disconnected": "Disconnected ⚠",
         "on-click": "nm-connection-editor"
     },
