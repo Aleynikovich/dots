@@ -98,5 +98,6 @@
     "explorer.confirmDelete": false,
     "editor.fontFamily": "JetBrainsMono Nerd Font, FiraCode Nerd Font, Droid Sans Mono, monospace",
     "editor.fontLigatures": false,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "editor.allowVariableFonts": false
 }
