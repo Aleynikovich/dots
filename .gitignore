@@ -11,6 +11,7 @@
 !uwsm/
 !waybar/
 !yay/
+!Code/User/settings.json
 !code-flags.conf
 !electron-flags.conf
 !.gitignore

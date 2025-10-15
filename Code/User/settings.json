@@ -1,0 +1,100 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "node"
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "chat.tools.terminal.autoApprove": {
+        "./scripts/*": true,
+        "timeout": true,
+        "./build.sh": true,
+        "sed": true,
+        "timeout *": true,
+        "ldd": true,
+        "ps": true,
+        "make": true,
+        "nproc": true,
+        "./ROSSA": true,
+        "make -j$(nproc)": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "cd /home/teknikertofas/Documents/Projects/Hartu/ros2_ws/src/ROSSA/build && make -j$(nproc)": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "cd /home/teknikertofas/Documents/Projects/Hartu/ros2_ws/src/ROSSA/build && source /opt/ros/humble/setup.bash && ./ROSSA": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "ros2": true,
+        "source /opt/ros/humble/setup.bash && ros2 pkg executables turtlesim": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "source /opt/ros/humble/setup.bash && ls -la /home/teknikertofas/Documents/Projects/Hartu/ros2_ws/install/ | head -10": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "source /opt/ros/humble/setup.bash && ros2 pkg executables behaviortree_cpp_v3": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "demo_nodes_cpp": true,
+        "examples)\"": true,
+        "bash /home/teknikertofas/Documents/Projects/Hartu/ros2_ws/src/ROSSA/build.sh": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "source /opt/ros/humble/setup.bash && ./ROSSA": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "bash build.sh": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/home/teknikertofas/Documents/Projects/Hartu/ros2_ws/src/ROSSA/build/ROSSA": true
+    },
+    "git.enableSmartCommit": true,
+    "editor.stickyScroll.enabled": false,
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "[instructions]": {
+
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "chat.agent.maxRequests": 300,
+    "makefile.configureOnOpen": true,
+    "files.autoSave": "onFocusChange",
+    "chat.agent.thinkingStyle": "expanded",
+    "chat.agent.todoList": {
+
+        "position": "default"
+    },
+    "chat.tools.global.autoApprove": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "geminicodeassist.project": "silver-scope-mfsvs",
+    "qt-core.additionalQtPaths": [
+        {
+            "name": "Qt-5.15.17-linux-g++_from_PATH",
+            "path": "/usr/bin/qmake"
+        }
+    ],
+    "qt-core.qtInstallationRoot": "/usr/lib/qt",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'Droid Sans Mono', 'monospace'"
+}
