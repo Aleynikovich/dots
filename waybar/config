@@ -19,7 +19,13 @@
             "7": "7",
             "8": "8",
             "9": "9",
-            "10": "10"
+            "10": "10",
+            "class<kitty>": "",
+            "class<firefox>": "",
+            "class<code>": "",
+            "class<discord>": "",
+            "class<steam>": "",
+            "class<spotify>": ""
         }
     },
     "hyprland/window": {
