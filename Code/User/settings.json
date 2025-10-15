@@ -96,5 +96,6 @@
     ],
     "qt-core.qtInstallationRoot": "/usr/lib/qt",
     "explorer.confirmDelete": false,
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'Droid Sans Mono', 'monospace'"
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Fira Code, Droid Sans Mono, monospace",
+    "editor.mouseWheelZoom": true
 }
