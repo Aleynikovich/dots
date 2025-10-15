@@ -33,8 +33,8 @@
         "max-length": 50
     },
     "clock": {
-        "format": "{:%H:%M %d/%m/%y}",
-        "tooltip-format": "{:%Y-%m-%d %H:%M}"
+        "format": "{:%H:%M:%S %d/%m/%y}",
+        "tooltip-format": "{:%Y-%m-%d %H:%M:%S}"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
